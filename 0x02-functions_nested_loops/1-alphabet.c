@@ -6,9 +6,9 @@
  * Return:void
  */
 
-void print_alphabet()
+void print_alphabet(void)
 {
-	char  ch;
+	char  ch;	
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		_putchar(ch);
