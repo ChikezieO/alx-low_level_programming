@@ -17,6 +17,9 @@ if (i != 98)
 printf("%d, ", i);
 else if (i == 98)
 printf("%d\n", i);
+else if (i <= 111)
+for (i = 111; i >= 98; i--)
+printf("%d, ", i);
 else if (n >= 98)
 for (j = n; j >= 98; j--)
 {
